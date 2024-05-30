@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#scores{
+    display: flex;
+    gap: 16px;
+}
+
+#options {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+#results {
+    margin: 16px;
+}

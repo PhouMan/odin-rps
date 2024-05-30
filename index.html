@@ -2,10 +2,26 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
+        <link href="./styles.css" rel="stylesheet">
+        <script src="./scripts.js" defer></script>
         <title>Home</title>
-        
     </head>
     <body>
-        <script src="./scripts.js"></script>
+        <div class="container">
+            <h1>Scissor, Paper, and Rock</h1>
+            <div id="scores">
+                <div id="human-score">Your Score: 0</div>
+                <div id="cpu-score">CPU Score: 0</div>
+            </div>
+            <div class="text"> 
+                <h2>Pick your weapon</h2>
+            </div>
+            <div id="options">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+            <div id="results"></div>
+        </div>
     </body>
 </html>
